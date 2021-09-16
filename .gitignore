@@ -1,0 +1,12 @@
+# Distribution / packaging
+
+venv/
+dataset/
+.idea/
+.venv
+.idea_modules/
+
+
+__pycache__/
+*.py[cod]
+*$py.class

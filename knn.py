@@ -15,8 +15,9 @@ ap.add_argument("-k", "--neighbors", type=int, default=1,
 	help="# of nearest neighbors for classification")
 ap.add_argument("-j", "--jobs", type=int, default=-1, help="# of jobs for KNN algorithm (-1 uses all cores)")
 args = vars(ap.parse_args())
-# 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
 
+
+#https://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@github.com/cr21/KNN_ImageClassfier
 print("[INFO] LOADING IMAGES")
 imagePaths = list(paths.list_images(args["dataset"]))
 
