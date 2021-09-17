@@ -6,6 +6,7 @@ dataset/
 .venv
 .idea_modules/
 
+output/
 
 __pycache__/
 *.py[cod]
