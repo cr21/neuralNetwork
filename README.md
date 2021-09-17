@@ -1,19 +1,30 @@
-# KNN_ImageClassfier knn.py
-Simple Neural Network models using Pytorch and Tensorflow. 
+
+# Simple Neural Network models using Pytorch and Tensorflow. 
 
 Directory structure: 
-neuralnetwork 
-         -> dataset
-         -> datasetLoader
-            -> simpledatasetloader.py
-         -> nn
-            -> conv
-               -> shallownet.py
-            neuralnetwork.py
-         -> preprocessing
-            -> imagetoarraypreprocessor.py
-            -> simplepreprocessor.py
-            
+         
+                  .
+
+         ├── README.md
+         ├── datasetLoader
+         │   ├── __init__.py
+         │   └── simpledatasetloader.py
+         ├── knn.py
+         ├── nn
+         │   ├── __init__.py
+         │   ├── conv
+         │   │   ├── __init__.py
+         │   │   └── shallowNet.py
+         │   └── neuralnetwork.py
+         ├── nn_mnist.py
+         ├── nn_xor.py
+         ├── preprocessing
+         │   ├── __init__.py
+         │   ├── imagetoarraypreprocessor.py
+         │   └── simplepreprocessor.py
+         └── shallow_animals.py
+
+
 
 # 
 
