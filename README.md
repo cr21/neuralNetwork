@@ -1,9 +1,19 @@
 # KNN_ImageClassfier knn.py
-Simple KNN Image classfier
-Dataset Folder should have data in following way :
+Simple Neural Network models using Pytorch and Tensorflow. 
 
-animals/ [Animal_Category] / Animal_category.jpg 
-
+Directory structure: 
+neuralnetwork 
+         -> dataset
+         -> datasetLoader
+            -> simpledatasetloader.py
+         -> nn
+            -> conv
+               -> shallownet.py
+            neuralnetwork.py
+         -> preprocessing
+            -> imagetoarraypreprocessor.py
+            -> simplepreprocessor.py
+            
 
 # 
 
